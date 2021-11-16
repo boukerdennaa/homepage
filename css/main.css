@@ -94,21 +94,19 @@ h1{
 .photo-element{
     width: 30em;
     margin: 1em auto;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    border: 2.5px solid #ddd;
+    border-radius: 5px;
 }
 
 .photo-element img{
     display: block;
-    margin: 1em auto;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
-    margin-bottom: .5em;
 }
 
 p{
     text-align: center;
+    padding: .8em;
 }
 
 /* Second section */
