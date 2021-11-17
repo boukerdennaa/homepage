@@ -37,8 +37,6 @@ ul li{
     margin: 2em 0;
     overflow: hidden;
     height: 100vh;
-
-
 }
 
 .slide-container img{
@@ -46,6 +44,20 @@ ul li{
     height: 95vh;
     opacity: 0.7;
     object-fit: cover;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: lightgray;
 }
 
 .centrado{
@@ -56,16 +68,9 @@ ul li{
 }
 
 button {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    background: #f2d1a3;
     padding: 1em;
-    margin: 20px;
     line-height: 50px;
-    min-width: 150px;
     text-align: center;
-    font-family: Arial, sans-serif;
     background: #f2d1a3;
     border-radius: 5px;
     color: #000;
@@ -75,7 +80,7 @@ button {
     transition: background-color 0.3s ease-in-out;
    }
    
-   button:hover {
+button:hover {
     background-color: #d8a46d;
    }
 
