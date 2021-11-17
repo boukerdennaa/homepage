@@ -18,7 +18,6 @@ header{
     background-color: aliceblue;
     position: fixed;
     top: 0;
-    margin: .8em 0;
     z-index: 2;
 }
 
@@ -35,7 +34,6 @@ ul li{
 
 /* Slider */
 .slide-container{
-    margin: 2em 0;
     overflow: hidden;
     height: 100vh;
 }

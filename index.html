@@ -30,9 +30,6 @@
             <div class="mySlides transition">
                 <img src="img/image.webp" />
             </div>
-            <div class="mySlides transition">
-                <img src="img/img1.jpg" />
-            </div>
             <div class="centrado">
                 <h1>Titulo principal de la web</h1>
                 <button>Boton de acción</button>
@@ -79,29 +76,6 @@
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Ubuntu:700,700i', 'Ubuntu+Condensed:400']
-                }
-            });  
-
-            var slideIndex= 0;
-            function showSlides(){
-                var slides = document.getElementsByClassName("mySlides");
-                console.log("funciona");
-                for( i=0; i < slides.length; i++){
-                    slides[i].style.display="none";
-                }
-
-                slideIndex++;
-                if (slideIndex > slides.length){
-                    slideIndex=1;
-                }
-
-                slides[slideIndex-1].style.display= "block";
-                setTimeout(showSlides, 2000);
-            }      
-        </script>
+        <script src="main.js"></script>
     </body>
 </html>
