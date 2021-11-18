@@ -162,7 +162,7 @@ p{
     text-overflow: ellipsis; 
 }
 
-.transparencia{
+/* .transparencia{
     width: 40%;
 }
 
@@ -170,14 +170,14 @@ p{
     width: 100%;
     max-height: auto;
     filter: drop-shadow(12px 5px 4px #000);
-}
+} */
 
-.model-element{
+/* .model-element{
     width: 40%;
-}
+} */
 
 .model-element model-viewer{
-    height: 30em;
+    height: 20em;
     width: 40em;
 }
 
